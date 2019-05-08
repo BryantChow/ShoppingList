@@ -51,7 +51,7 @@ class SimpleList extends Component {
     // assigns a unique key based on the field listed
     // in this case it is the author field
     return initList.map(initList => {
-      return Object.assign(initList, { key: initList.author });
+      return Object.assign(initList, { key: initList.description });
     });
 
   };
